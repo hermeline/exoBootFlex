@@ -20,11 +20,11 @@
       <p>Pour l'exercice bootstrap, modifiez uniquement le fichier <b>index.php</b> en ajoutant des classes bootstrap au bon endroit (col-xs-6 par exemple...)</p>
       <p>Pour l'exercice flexbox, ajouter les propriétés flexbox dans le fichier <b>app.scss</b> et n'oubliez pas de lancer la compilation avec la commande sass:
       </p>
-      <code>sass --watch assets/scsscss:assets/css/styles.css
+      <code>sass --watch assets/scss/app.scss:assets/css/styles.css
       </code>
       <p>Bootstrap : mots clefs et classes à ajouter au div existantes pour arriver au rendu final: col-XX-XX, navbar, offset</p>
       <p>Flex -> les propriétés flex: , order:, align-items, justify-content et leurs valeurs possibles</p>
-      <p>Il faut changer les styles dans le fichier assets/css/app.scss puis lancez la commande sass pour générer le fichier assets/css/styles.css pour arriver au même résultat que les captures d'écran <b>resultat.png</b>, <b>resultat2.png</b> et <b>resultat3.png</b></p>
+      <p>Il faut changer les styles dans le fichier assets/scss/app.scss puis lancez la commande sass pour générer le fichier assets/css/styles.css pour arriver au même résultat que les captures d'écran <b>resultat.png</b>, <b>resultat2.png</b> et <b>resultat3.png</b></p>
     </div>
   </header>
 
