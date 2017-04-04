@@ -13,7 +13,9 @@ p.espace {
 
 ul.dame {
   padding: 0;
-  border: 1px solid black; }
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-between; }
   ul.dame li {
     list-style-type: none; }
   ul.dame li:first-child {
@@ -21,7 +23,9 @@ ul.dame {
 
 ul.dame2 {
   padding: 0;
-  border: 1px solid black; }
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-around; }
   ul.dame2 li {
     list-style-type: none; }
   ul.dame2 li:first-child {
@@ -29,7 +33,9 @@ ul.dame2 {
 
 ul.dame3 {
   padding: 0;
-  border: 1px solid black; }
+  border: 1px solid black;
+  display: flex;
+  justify-content: center; }
   ul.dame3 li {
     list-style-type: none; }
   ul.dame3 li:first-child {
@@ -41,20 +47,35 @@ ul.dame3 {
 
 ul.dame4 {
   padding: 0;
-  border: 1px solid black; }
+  border: 1px solid black;
+  display: flex;
+  flex-flow: column;
+  align-items: center; }
   ul.dame4 li {
     list-style-type: none; }
 
+.country {
+  display: flex; }
+
 .river2 {
-  background: #32c5ee; }
+  background: #32c5ee;
+  order: 2;
+  flex: 2; }
 
 .bergeG, .bergeD {
   background: #248d30;
   color: white;
-  min-height: 100px; }
+  min-height: 100px;
+  flex: 1; }
+
+.bergeD {
+  order: 3; }
 
 .fond {
   background: url("../img/damier.png");
-  min-height: 350px; }
+  min-height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end; }
 
 /*# sourceMappingURL=styles.css.map */
