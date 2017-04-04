@@ -1,4 +1,4 @@
-<p class="espace">Alterner un case noire, une case blanche dans la liste ci-dessous</p>
+<p class="espace">Reproduisez les listes ci-dessous comme dans les images résultats</p>
 
 <ul class="dame">
   <li>Echec</li>
